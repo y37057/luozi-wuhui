@@ -1,0 +1,69 @@
+{
+  "generatedWith": "built-in imagegen",
+  "usage": "Local fan prototype; generated interpretations, not official stills",
+  "assets": [
+    {
+      "id": "han",
+      "path": "characters/han.png",
+      "prompt": "Game character portrait asset, cinematic Chinese xianxia 3D animation fan-art interpretation of adult Han Li from A Record of a Mortal's Journey to Immortality. Young adult Chinese male, reserved intelligent face, long black hair half tied, dark teal green layered ancient scholar robe, seated chess player waist-up, right hand holding a small black jade gomoku stone, calm attentive gaze slightly right toward center. Detailed real fabric and skin, warm soft rim light, muted bamboo backdrop softly blurred, vertical portrait 2:3. No text, no frame, no other people. This is adult Han Li, not child or nascent soul."
+    },
+    {
+      "id": "he",
+      "path": "characters/he.png",
+      "prompt": "Game character portrait asset, cinematic Chinese xianxia 3D animation fan-art interpretation of He Xianshi the elderly chess-loving cultivator. Elderly Chinese male with very long white beard, white eyebrows, white hair tied in a topknot, deeply lined kind wise face, muted ivory and sage ancient robes, seated waist-up, holding a white jade gomoku stone, gazing slightly left toward center. Detailed fabric and natural skin, warm soft rim light, muted bamboo backdrop softly blurred, vertical portrait 2:3. No text, no frame, no other people."
+    },
+    {
+      "id": "nangong",
+      "path": "characters/nangong.png",
+      "prompt": "Vertical 2:3 game character portrait, cinematic Chinese xianxia 3D animation fan-art interpretation of Nangong Wan. Elegant adult Chinese female cultivator, serene warm expression, long black hair with refined white-jade hair ornaments, flowing ivory and pale lavender ancient robes, holding one black jade gomoku stone delicately, seated waist-up, gaze slightly right toward a chessboard opponent. Detailed realistic fabric and skin, bamboo pavilion softly blurred, warm rim light. No text, no frame, no other people."
+    },
+    {
+      "id": "ziling",
+      "path": "characters/ziling.png",
+      "prompt": "Vertical 2:3 game character portrait, cinematic Chinese xianxia 3D animation fan-art interpretation of Zi Ling. Striking adult Chinese female cultivator with poised decisive expression, long dark hair and subtle purple ornaments, deep violet and rose ancient robes, holding one black jade gomoku stone, seated waist-up, gaze slightly right toward a chessboard opponent. Detailed realistic fabric and skin, bamboo pavilion softly blurred, warm rim light. No text, no frame, no other people."
+    },
+    {
+      "id": "tiehun",
+      "path": "characters/tiehun.png",
+      "prompt": "Vertical 2:3 game character portrait of Iron-Soul Han Li, a stern adult Chinese xianxia cultivator in dark charcoal, teal and bronze battle robes, calm calculating gaze, long black hair tied back, holding one black jade gomoku stone, seated waist-up and facing slightly right. Cinematic 3D animation fan-art, detailed armor cloth and skin, bamboo pavilion softly blurred, warm rim light. No text, no frame, no other people."
+    },
+    {
+      "id": "huolong",
+      "path": "characters/huolong.png",
+      "prompt": "Vertical 2:3 game character portrait of Fire Dragon Boy, a young-looking adult Chinese male xianxia cultivator with fiery confident expression, red-gold crown, crimson and burnt-orange ancient robes, subtle fire aura, holding one black jade gomoku stone, seated waist-up and facing slightly right. Cinematic 3D animation fan-art, detailed fabric and skin, bamboo pavilion softly blurred, warm rim light. No text, no frame, no other people."
+    },
+    {
+      "id": "pavilion",
+      "path": "backgrounds/pavilion.png",
+      "prompt": "Wide 16:9 cinematic environment game background for Chinese xianxia gomoku game. Inside a beautiful old Chinese open bamboo pavilion looking toward a quiet mountain village and misty green mountains, curved wooden roof framing upper edge, bamboo grove at sides, blossoming peach branches with pink petals, warm afternoon sun through haze, a low stone terrace in foreground, central area clear and uncluttered for a UI chessboard overlay. Painterly realistic 3D animation production art, soothing green jade and warm gold, fine details, no people, no chessboard, no text, no UI."
+    },
+    {
+      "id": "xuangu",
+      "path": "characters/xuangu.png",
+      "prompt": "Use case stylized-concept. Create a vertical 2:3 waist-up game portrait of Xuan Gu (玄骨), a sinister elderly male Chinese xianxia ghost cultivator, gaunt refined face, long silver hair, dark jade and black robes, faint emerald spiritual aura, holding a jade gomoku stone, looking slightly right. Cinematic high quality realistic 3D Chinese animation fan interpretation, elegant restrained detail, bamboo pavilion background softly blurred, portrait fills frame. No text, no logo, no other characters."
+    },
+    {
+      "id": "ascension",
+      "path": "backgrounds/ascension.png",
+      "prompt": "Use case stylized-concept. Wide 16:9 cinematic xianxia game opening and ascension background. Vast Chinese mountain peaks above an ocean of clouds, ancient pavilion tiny on a cliff in lower left foreground, extraordinary golden sun breaking through monumental clouds, jade green and ink blue mountains fading far into distance, subtle floating sword-like rays of light in sky, majestic and contemplative rather than battle chaos. Premium realistic 3D animation concept art, dramatic volumetric lighting, central area dark mist with elegant negative space for large Chinese calligraphy overlay. No text, no people, no logos."
+    }
+  ],
+  "music": {
+    "module": "../../lib/music.ts",
+    "source": "Original procedural pentatonic instrumental; no franchise audio",
+    "opening": {
+      "path": "audio/bgm/bufan-theme-26.mp3",
+      "source": "User supplied inputs/不凡主题曲26 - 王铮亮.mp3; public distribution rights not verified"
+    },
+    "config": "../../lib/audio-config.js",
+    "battle": {
+      "path": "audio/bgm/immortal-go.mp3",
+      "source": "User supplied inputs/music-wuziqi-Immortal Go.mp3; public distribution rights not verified",
+      "realms": [
+        "jindan",
+        "yuanying",
+        "huashen"
+      ]
+    }
+  }
+}
